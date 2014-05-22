@@ -1,0 +1,45 @@
+{
+  "name": "google-spreadsheet-json",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "http://github.com/UsabilityDynamics/google-spreadsheet-json",
+  "author": {
+    "name": "Usability Dynamics",
+    "email": "info@UsabilityDynamics.com",
+    "url": "http://UsabilityDynamics.com"
+  },
+  "bugs": {
+    "url": "http://github.com/UsabilityDynamics/google-spreadsheet-json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/UsabilityDynamics/google-spreadsheet-json/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/google-spreadsheet-json.js",
+  "engines": {
+    "node": ">=0.10.21"
+  },
+  "dependencies": {
+    "object-settings": "UsabilityDynamics/node-object-settings",
+    "object-emitter": "UsabilityDynamics/node-object-emitter",
+    "debug": "~0.8.1",
+    "deep-extend": "~0.2.8"
+  },
+  "devDependencies": {
+    "grunt-markdown": "~0.4.0",
+    "grunt-contrib-yuidoc": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-jscoverage": "0.0.3",
+    "mocha": "*",
+    "should": "*",
+    "grunt": "~0.4.1",
+    "express": "~4.3.0"
+  },
+  "keywords": [
+    "google",
+    "spreadsheet",
+    "json"
+  ]
+}
